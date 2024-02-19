@@ -11,6 +11,7 @@ import Admin from './pages/Admin';
 import AdmLogin from './pages/AdmLogin';
 import MarkEntry from './pages/MarkEntry'
 import SearchPage from './pages/searchpage'
+import Contact from './pages/contact'
 
 
 
@@ -26,6 +27,8 @@ function App() {
        <Route path="/admlogin" element={<AdmLogin/>}/>
        <Route path="/markentry" element={<MarkEntry/>}/>
        <Route path="/searchpage" element={<SearchPage/>}/>
+       <Route path="/contact" element={<Contact/>}/>
+
       </Routes>
     
     </div>

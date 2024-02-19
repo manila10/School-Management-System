@@ -8,6 +8,7 @@ function Navbar() {
 <Link to ={"/"}>Home</Link>
 <Link to ={"/user"}>Student Zone</Link>
 <Link to ={"/admin"}>Teacher Zone</Link>
+<Link to= {"/contact"}>Contact Us </Link>
 
 
     </div>

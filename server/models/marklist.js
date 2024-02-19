@@ -7,7 +7,7 @@ const MarklistSchema = new mongoose.Schema({
     std:String,
     english: Number,
     malayalam: Number,
-   maths: Number
+     maths: Number
 
 })
 const MarklistModel= mongoose.model("marks",MarklistSchema)
